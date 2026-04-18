@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
-import { motion } from "framer-motion";
+import { motion as Motion } from "framer-motion";
 import {
   ArrowRight,
   Briefcase,
@@ -69,14 +69,14 @@ const cardClass =
 
 function FadeIn({ children, delay = 0 }) {
   return (
-    <motion.div
+    <Motion.div
       initial={{ opacity: 0, y: 18 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.2 }}
       transition={{ duration: 0.55, delay }}
     >
       {children}
-    </motion.div>
+    </Motion.div>
   );
 }
 

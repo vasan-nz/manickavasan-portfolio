@@ -42,10 +42,6 @@ export default function Blog() {
   document.title = "The Thinking Archive";
   }, []);
   useEffect(() => {
-    setCurrentPage(1);
-  }, [searchTerm]);
-
-  useEffect(() => {
     const handleKeyDown = (event) => {
       if (event.key === "Escape") {
         setSelectedPost(null);
@@ -184,7 +180,7 @@ export default function Blog() {
               type="text"
               placeholder="Search blogs by title, content, or date..."
               value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
+              onChange={(e) => { setSearchTerm(e.target.value); setCurrentPage(1); }}
               className={
                 darkMode
                   ? "w-full rounded-2xl border border-slate-700 bg-slate-900 py-3 pl-11 pr-4 text-sm text-slate-100 outline-none transition focus:border-slate-500 focus:ring-2 focus:ring-slate-800"
