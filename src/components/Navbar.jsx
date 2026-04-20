@@ -1,11 +1,9 @@
-import mvLogo from "../assets/mv-logo-navbar.svg";
-
 export default function Navbar({ onContactClick }) {
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/70 backdrop-blur-xl">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 lg:px-8">
-        <a href="/">
-          <img src={mvLogo} alt="Manickavasan" className="h-8 w-auto" />
+        <a href="/" className="text-sm font-semibold tracking-[0.2em] text-white">
+          MANICKAVASAN
         </a>
 
         <div className="flex items-center gap-3">

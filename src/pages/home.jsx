@@ -5,8 +5,10 @@ import {
   ArrowRight,
   Briefcase,
   ExternalLink,
+  Facebook,
   Github,
   GraduationCap,
+  Instagram,
   Linkedin,
   Mail,
   MapPin,
@@ -403,6 +405,26 @@ export default function Home() {
                     >
                       <Github className="h-4 w-4" />
                       GitHub
+                    </a>
+
+                    <a
+                      href="https://instagram.com/vasan.nz"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2.5 text-sm text-white transition hover:bg-white/15"
+                    >
+                      <Instagram className="h-4 w-4" />
+                      Instagram
+                    </a>
+
+                    <a
+                      href="https://facebook.com/r.manickavasan"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2.5 text-sm text-white transition hover:bg-white/15"
+                    >
+                      <Facebook className="h-4 w-4" />
+                      Facebook
                     </a>
                   </div>
                 </div>
