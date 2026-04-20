@@ -1,0 +1,175 @@
+- generic [ref=e3]:
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - link "MANICKAVASAN" [ref=e7] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e8]:
+        - link "Blog" [ref=e9] [cursor=pointer]:
+          - /url: /blog
+        - button "Let's Connect" [ref=e10]
+  - main [ref=e11]:
+    - generic [ref=e13]:
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - img [ref=e17]
+          - text: AI Workflow Intern · Available for work
+        - heading "Manickavasan Rajendran" [level=1] [ref=e20]
+        - paragraph [ref=e21]: — Vasan
+        - paragraph [ref=e22]: Software Developer & AI Workflow Analyst
+        - paragraph [ref=e23]: I build full-stack web applications and design AI-assisted workflows. Currently completing my Master of IT at the University of Waikato while gaining real-world experience at Insignia Design & Architecture. Available for work — NZ student visa with legal work rights, Post-Study Work Visa eligible from June 2026.
+        - generic [ref=e24]:
+          - button "View Projects" [ref=e25]:
+            - text: View Projects
+            - img [ref=e26]
+          - button "Contact Me" [ref=e28]
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - paragraph [ref=e34]: Quick Snapshot
+          - paragraph [ref=e35]: manickavasan.com
+        - generic [ref=e36]:
+          - generic [ref=e37]:
+            - paragraph [ref=e38]: Live Projects
+            - paragraph [ref=e39]: 2 shipped and live
+          - generic [ref=e40]:
+            - paragraph [ref=e41]: Current Role
+            - paragraph [ref=e42]: AI Workflow Intern
+          - generic [ref=e43]:
+            - paragraph [ref=e44]: Location
+            - paragraph [ref=e45]: Hamilton, New Zealand
+    - generic [ref=e46]:
+      - generic [ref=e48]:
+        - paragraph [ref=e49]: Projects
+        - heading "Real software built to solve real problems" [level=2] [ref=e50]
+      - generic [ref=e51]:
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - paragraph [ref=e55]: Live Project
+            - heading "Job Application Management System" [level=3] [ref=e56]
+          - paragraph [ref=e57]: Full-stack multi-user web app for tracking job applications. Secure authentication with email verification, structured workflow for status tracking, follow-ups, and notes.
+          - generic [ref=e58]:
+            - generic [ref=e59]: React
+            - generic [ref=e60]: Full-Stack
+          - link "View Live" [ref=e62] [cursor=pointer]:
+            - /url: https://manickavasan.com/job-app
+            - text: View Live
+            - img [ref=e63]
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - paragraph [ref=e70]: Live Project
+            - heading "The Thinking Archive" [level=3] [ref=e71]
+          - paragraph [ref=e72]: Personal blog platform with search, pagination, and structured content management. Built with React, focused on performance and readability.
+          - generic [ref=e73]:
+            - generic [ref=e74]: React
+            - generic [ref=e75]: Tailwind CSS
+            - generic [ref=e76]: Vite
+          - link "View Live" [ref=e78] [cursor=pointer]:
+            - /url: https://manickavasan.com/blog
+            - text: View Live
+            - img [ref=e79]
+    - generic [ref=e83]:
+      - generic [ref=e85]:
+        - paragraph [ref=e86]: Experience
+        - heading "Real-world exposure alongside study" [level=2] [ref=e87]
+      - generic [ref=e88]:
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - heading "AI Workflow Analyst Intern" [level=3] [ref=e92]
+            - paragraph [ref=e93]: Insignia Design & Architecture Ltd
+            - paragraph [ref=e94]: Mar 2026 – Present
+          - generic [ref=e95]:
+            - generic [ref=e96]: Analysed end-to-end architectural project workflows from client enquiry to delivery
+            - generic [ref=e97]: Identified inefficiencies in coordination, communication, and manual follow-ups
+            - generic [ref=e98]: Mapped current-state processes and highlighted delays and duplicated efforts
+            - generic [ref=e99]: Designed AI-assisted workflow solutions including automated email drafting and notifications
+            - generic [ref=e100]: Proposed a future-state workflow integrating AI tools to improve turnaround time
+            - generic [ref=e101]: Evaluated feasibility and provided a practical 3–6 month implementation roadmap
+        - generic [ref=e103]:
+          - generic [ref=e104]:
+            - heading "Merchandising Assistant" [level=3] [ref=e105]
+            - paragraph [ref=e106]: New World NZ
+            - paragraph [ref=e107]: Feb 2026 – Present
+          - generic [ref=e108]:
+            - generic [ref=e109]: Replenishing and merchandising stock according to store standards
+            - generic [ref=e110]: Assisting customers and maintaining shop floor presentation
+    - generic [ref=e111]:
+      - generic [ref=e113]:
+        - paragraph [ref=e114]: Skills
+        - heading "Technologies and tools I work with" [level=2] [ref=e115]
+      - generic [ref=e116]:
+        - generic [ref=e118]:
+          - heading "Programming" [level=3] [ref=e119]
+          - generic [ref=e120]:
+            - generic [ref=e121]: JavaScript (ES6+)
+            - generic [ref=e122]: Python
+            - generic [ref=e123]: SQL
+        - generic [ref=e125]:
+          - heading "Frontend" [level=3] [ref=e126]
+          - generic [ref=e127]:
+            - generic [ref=e128]: React
+            - generic [ref=e129]: HTML5
+            - generic [ref=e130]: CSS3
+            - generic [ref=e131]: Tailwind CSS
+        - generic [ref=e133]:
+          - heading "Tools & Platforms" [level=3] [ref=e134]
+          - generic [ref=e135]:
+            - generic [ref=e136]: Git
+            - generic [ref=e137]: VS Code
+            - generic [ref=e138]: AWS (EC2 basics)
+        - generic [ref=e140]:
+          - heading "Workflow & AI" [level=3] [ref=e141]
+          - generic [ref=e142]:
+            - generic [ref=e143]: Process mapping
+            - generic [ref=e144]: AI-assisted development
+            - generic [ref=e145]: Prompt engineering
+            - generic [ref=e146]: Claude
+            - generic [ref=e147]: ChatGPT
+    - generic [ref=e148]:
+      - generic [ref=e150]:
+        - paragraph [ref=e151]: Professional Strengths
+        - heading "How I approach work" [level=2] [ref=e152]
+      - generic [ref=e153]:
+        - generic [ref=e155]:
+          - heading "System Thinking" [level=3] [ref=e156]
+          - paragraph [ref=e157]: Sees workflows end-to-end — understands dependencies and how changes ripple across a system.
+        - generic [ref=e159]:
+          - heading "Development Lifecycle" [level=3] [ref=e160]
+          - paragraph [ref=e161]: "Comfortable across the full cycle: planning, building, testing, and deploying."
+        - generic [ref=e163]:
+          - heading "Security Awareness" [level=3] [ref=e164]
+          - paragraph [ref=e165]: Applies secure coding basics from the start — validation, authentication, and common vulnerability prevention.
+        - generic [ref=e167]:
+          - heading "Software Testing" [level=3] [ref=e168]
+          - paragraph [ref=e169]: Writes structured test cases and thinks beyond the happy path to edge cases and failure points.
+    - generic [ref=e173]:
+      - generic [ref=e174]:
+        - paragraph [ref=e175]: Contact
+        - heading "Let's connect." [level=2] [ref=e176]
+        - paragraph [ref=e177]: Open to software development roles, internships, and part-time opportunities in New Zealand.
+        - generic [ref=e178]:
+          - link "manickavasan@icloud.com" [ref=e179] [cursor=pointer]:
+            - /url: mailto:manickavasan@icloud.com
+            - img [ref=e180]
+            - text: manickavasan@icloud.com
+          - link "LinkedIn" [ref=e183] [cursor=pointer]:
+            - /url: https://linkedin.com/in/manickavasan
+            - img [ref=e184]
+            - text: LinkedIn
+          - link "GitHub" [ref=e188] [cursor=pointer]:
+            - /url: https://github.com/vasan-nz
+            - img [ref=e189]
+            - text: GitHub
+      - generic [ref=e192]:
+        - heading "Quick details" [level=3] [ref=e193]
+        - generic [ref=e194]:
+          - paragraph [ref=e195]:
+            - img [ref=e196]
+            - text: Hamilton, New Zealand
+          - paragraph [ref=e199]:
+            - img [ref=e200]
+            - text: Master of Information Technology — University of Waikato
+          - paragraph [ref=e203]:
+            - img [ref=e204]
+            - text: NZ Student Visa with legal work rights during study
+          - paragraph [ref=e207]:
+            - img [ref=e208]
+            - text: Post-Study Work Visa eligible from June 2026 (3-year open work visa)

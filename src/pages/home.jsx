@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import { motion as Motion } from "framer-motion";
 import {
@@ -26,12 +25,9 @@ const experience = [
     company: "Insignia Design & Architecture Ltd",
     period: "Mar 2026 – Present",
     points: [
-      "Analysed end-to-end architectural project workflows from client enquiry to delivery",
-      "Identified inefficiencies in coordination, communication, and manual follow-ups",
-      "Mapped current-state processes and highlighted delays and duplicated efforts",
-      "Designed AI-assisted workflow solutions including automated email drafting and notifications",
-      "Proposed a future-state workflow integrating AI tools to improve turnaround time",
-      "Evaluated feasibility and provided a practical 3–6 month implementation roadmap",
+      "Mapped end-to-end project workflows to identify inefficiencies in coordination and communication",
+      "Designed AI-assisted solutions including automated email drafting and status notifications",
+      "Delivered a future-state workflow proposal with a practical 3–6 month implementation roadmap",
     ],
   },
   {
@@ -119,8 +115,6 @@ function SkillGroup({ title, items }) {
 }
 
 export default function Home() {
-  const navigate = useNavigate();
-
   useEffect(() => {
     document.title = "Manickavasan Rajendran — Portfolio";
   }, []);
@@ -136,10 +130,7 @@ export default function Home() {
     <div className="min-h-screen bg-slate-950 text-white selection:bg-cyan-300 selection:text-slate-950">
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top,rgba(34,211,238,0.16),transparent_30%),radial-gradient(circle_at_85%_15%,rgba(96,165,250,0.14),transparent_22%),linear-gradient(to_bottom,#020617,#020617)]" />
 
-      <Navbar
-        onContactClick={scrollToSection}
-        onBlogClick={() => navigate("/blog")}
-      />
+      <Navbar onContactClick={scrollToSection} />
 
       <main id="home">
         {/* Hero */}
@@ -330,6 +321,44 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Professional Strengths */}
+        <section id="strengths" className="mx-auto max-w-6xl px-6 py-14 lg:px-8">
+          <FadeIn>
+            <SectionHeading
+              eyebrow="Professional Strengths"
+              title="How I approach work"
+            />
+          </FadeIn>
+
+          <div className="mt-8 grid gap-5 sm:grid-cols-2">
+            {[
+              {
+                title: "System Thinking",
+                body: "Sees workflows end-to-end — understands dependencies and how changes ripple across a system.",
+              },
+              {
+                title: "Development Lifecycle",
+                body: "Comfortable across the full cycle: planning, building, testing, and deploying.",
+              },
+              {
+                title: "Security Awareness",
+                body: "Applies secure coding basics from the start — validation, authentication, and common vulnerability prevention.",
+              },
+              {
+                title: "Software Testing",
+                body: "Writes structured test cases and thinks beyond the happy path to edge cases and failure points.",
+              },
+            ].map((item, index) => (
+              <FadeIn key={item.title} delay={index * 0.07}>
+                <div className={cardClass}>
+                  <h3 className="text-base font-semibold text-white">{item.title}</h3>
+                  <p className="mt-3 text-sm leading-7 text-slate-300">{item.body}</p>
+                </div>
+              </FadeIn>
+            ))}
+          </div>
+        </section>
+
         {/* Contact */}
         <section id="contact" className="mx-auto max-w-6xl px-6 pb-20 pt-14 lg:px-8">
           <FadeIn>
@@ -367,7 +396,7 @@ export default function Home() {
                     </a>
 
                     <a
-                      href="https://github.com/vasan.nz"
+                      href="https://github.com/vasan-nz"
                       target="_blank"
                       rel="noreferrer"
                       className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2.5 text-sm text-white transition hover:bg-white/15"
