@@ -4,6 +4,8 @@ RewriteBase /
 
 RewriteRule ^portfolio-assets/ - [L]
 RewriteRule ^vite\.svg$ - [L]
+RewriteRule ^sitemap\.xml$ - [L]
+RewriteRule ^robots\.txt$ - [L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

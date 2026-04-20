@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://manickavasan.com/sitemap.xml
