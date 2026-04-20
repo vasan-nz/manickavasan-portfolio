@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="40" viewBox="0 0 140 40" fill="none" role="img" aria-label="MV logo">
+  <path d="M8 31
+           C10 33, 14 29, 18 25
+           C28 15, 36 7, 46 2
+           L33 26
+           C31 30, 34 33, 39 29
+           L56 14
+           L46 28
+           C43 32, 47 34, 53 30
+           C67 20, 84 11, 104 8
+           C116 6, 127 6, 138 7"
+        stroke="currentColor"
+        stroke-width="4.2"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+</svg>
